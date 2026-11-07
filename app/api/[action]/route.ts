@@ -1,3 +1,4 @@
+import {mergedRankHistory,rankStatistics,rankCSV} from '../../../lib/rank-history.mjs';
 import {sharedNotices,dailyStatus,collectionInfo,updateDaily} from '../../../lib/daily-update';
 import {availableNotices,availabilityInfo,RESEARCH_POLICY} from '../../../lib/availability.mjs';
 import {publicCollection,publicNotices,publicModelStatus} from '../../../lib/public-data.mjs';
@@ -16,6 +17,11 @@ async function handler(req:Request,params:Promise<{action:string}>){
  const reply=(data:any,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'private, no-store','Vary':'Cookie','X-Content-Type-Options':'nosniff',...(sessionCookie?{'Set-Cookie':sessionCookie}:{})}});
  try{
   const {action}=await params;
+  if(req.method==='GET'&&(action==='rank-statistics'||action==='rank-csv')){
+   const rows=mergedRankHistory(await list('official:g2b-daily','official-update'));
+   if(action==='rank-statistics')return reply(rankStatistics(rows));
+   return new Response(rankCSV(rows),{headers:{'Content-Type':'text/csv; charset=utf-8','Content-Disposition':'attachment; filename="rank-history.csv"','Cache-Control':'no-store'}});
+  }
   if(action==='daily-update'&&req.method==='POST')return reply(await updateDaily(req));
   if(action==='daily-status'&&req.method==='GET')return reply(await dailyStatus());
   if(action==='health'&&req.method==='GET'){await database().prepare('SELECT 1 AS ready').first();const info=collectionInfo(await sharedNotices(),await dailyStatus());return reply({status:'ok',storage:'D1',schemaVersion:SCHEMA_VERSION,publicData:{noticeCount:info.noticeCount,resultCount:info.resultCount,participantRows:info.participantRows},models:publicModelStatus,at:new Date().toISOString()});}

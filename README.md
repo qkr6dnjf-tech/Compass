@@ -1,5 +1,26 @@
 # 입찰 나침반
 
+[사이트 열기](https://jeonbuk-bid-compass.qkrtkatlr3.chatgpt.site) · [번호별 사정률](https://jeonbuk-bid-compass.qkrtkatlr3.chatgpt.site/#ranks)
+
+## 내 PC에서 실행
+
+Node.js 22.13 이상과 npm이 필요합니다. 저장소를 내려받아 `package.json`이 있는 폴더에서 아래 명령을 실행하세요. 처음 만든 로컬 DB에만 두 SQL 파일을 순서대로 적용합니다.
+
+```powershell
+npm ci
+npm run build
+npx wrangler d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_burly_onslaught.sql
+npx wrangler d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_strong_peter_quill.sql
+npm run dev
+```
+
+브라우저에서 http://127.0.0.1:5173 을 여세요. 이후 실행은 `npm run dev`만 하면 됩니다.
+
+## 번호별 사정률
+
+‘번호별 사정률’에서 ±3% 공고의 가격순 1~15위별 중앙값 또는 산술평균을 선택합니다. 2,211개 공고의 검산된 가격 자료를 기본 제공하며, 일일 수집에서 확인한 적격 공고는 같은 공고 키로 갱신됩니다. 자료를 조회한 현재 시점의 통계 추정값입니다.
+
+
 전북·전주·군산·익산의 조경식재·조경시설물 공사를 위한 개인용 모의투찰 서비스입니다.
 
 ## 현재 사용 범위
