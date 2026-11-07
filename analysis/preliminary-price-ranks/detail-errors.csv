@@ -218,3 +218,7 @@ industry,20260701,R26BK01761682-000,"opening: locator.click: Timeout 8000ms exce
 Call log:
 [2m  - waiting for getByRole('button', { name: '개찰완료', exact: true }).first()[22m
 [2m    - locator resolved to <butto"
+industry,20260701,R26BK01697180-000,"opening: locator.click: Timeout 8000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: '개찰완료', exact: true }).first()[22m
+[2m    - locator resolved to <butto"
