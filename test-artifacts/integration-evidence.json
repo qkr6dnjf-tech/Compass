@@ -1,0 +1,301 @@
+{
+  "noticeId": "TEST-00099:000:0:000",
+  "prediction": {
+    "modelVersion": "synthetic-integration-v1",
+    "availability": {
+      "policy": "observed",
+      "researchOnly": false,
+      "delayDays": null,
+      "note": "확인된 결과 공개시각 또는 최초 수집시각을 사용합니다."
+    },
+    "researchOnly": false,
+    "trainingCount": 30,
+    "trainingConfig": {
+      "availabilityPolicy": "observed",
+      "trainingCount": 30,
+      "selectionCount": 10,
+      "validationCount": 10,
+      "selection": "latest-eligible-before-fixed-holdouts",
+      "historyMonths": 6
+    },
+    "trainingCutoff": "2025-06-09T03:00:00.000Z",
+    "analysisAsOf": "2025-07-19T00:59:00.000Z",
+    "condition": {
+      "assumedPriceRank": 2,
+      "order": "가격 내림차순 · 1번 최고 / 15번 최저",
+      "combinationsPerScenario": 364,
+      "scenarioType": "past-published-price-distribution"
+    },
+    "candidates": [
+      {
+        "id": "candidate-1",
+        "rate": "100.00118",
+        "rawRate": 100.0011774595424,
+        "interval": {
+          "lower": "100.000",
+          "upper": "100.200",
+          "label": "[100.000, 100.200)%"
+        },
+        "score": 0.8464219222220276,
+        "amountWon": 91688210,
+        "combination": [
+          2,
+          7,
+          11,
+          12
+        ],
+        "sourceNoticeId": "TEST-00095:000:0:000",
+        "sourcePublishedAt": "2025-07-11T03:00:00.000Z",
+        "explanation": "이전 공개 공고 TEST-00095:000:0:000의 가격비율을 이용한 조건부 조합 2·7·11·12. 이번 공고의 실제 15가격이 아닙니다.",
+        "features": [
+          0.0011774595424043355,
+          -0.8571428571428571,
+          -0.005925009530599823,
+          0.023273648838995038,
+          1,
+          0.728,
+          0.35,
+          0.004413309782716368,
+          1.2246467991473532e-16,
+          -1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "candidate-2",
+        "rate": "99.79755",
+        "rawRate": 99.79755186115057,
+        "interval": {
+          "lower": "99.600",
+          "upper": "99.800",
+          "label": "[99.600, 99.800)%"
+        },
+        "score": 0.2258311209345522,
+        "amountWon": 91503596,
+        "combination": [
+          2,
+          7,
+          11,
+          14
+        ],
+        "sourceNoticeId": "TEST-00096:000:0:000",
+        "sourcePublishedAt": "2025-07-13T03:00:00.000Z",
+        "explanation": "이전 공개 공고 TEST-00096:000:0:000의 가격비율을 이용한 조건부 조합 2·7·11·14. 이번 공고의 실제 15가격이 아닙니다.",
+        "features": [
+          -0.2024481388494337,
+          -0.8571428571428571,
+          -0.005925009530599823,
+          0.023273648838995038,
+          1,
+          0.728,
+          0.008333333333333333,
+          0.004413309782716368,
+          1.2246467991473532e-16,
+          -1,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "precisionNote": "다섯 자리는 과거 가격비율의 조합 평균을 계산·반올림한 출력 정밀도입니다. 다섯 자리 예측 정확도를 뜻하지 않습니다."
+  },
+  "saved": {
+    "id": "8ea9d1d7-6668-401e-aa08-b2c4af78fb4f",
+    "rootId": "practice:TEST-00099:000:0:000",
+    "revisionOf": null,
+    "userId": "test-user",
+    "mode": "practice",
+    "savedAt": "2026-01-01T00:00:00Z",
+    "eligibleLive": false,
+    "eligibilityReason": "과거 연습 기록",
+    "notice": {
+      "number": "TEST-00099",
+      "round": "000",
+      "rebid": "000",
+      "title": "시험자료 · 실제 공고 아님 99",
+      "region": "전주",
+      "industry": "조경식재",
+      "publishedAt": "2025-07-18T01:00:00.000Z",
+      "predictionAt": "2025-07-19T00:59:00.000Z",
+      "deadlineAt": "2025-07-19T01:00:00.000Z",
+      "openingAt": "2025-07-19T02:00:00.000Z",
+      "source": {
+        "type": "test-only",
+        "note": "Deterministic synthetic test fixture"
+      },
+      "price": {
+        "baseWon": 101021383,
+        "aWon": 10000000,
+        "lowerRatePercent": "89.745",
+        "unitWon": 1,
+        "formula": "a-adjusted",
+        "rounding": "ceil",
+        "minimumRatePercent": "97",
+        "maximumRatePercent": "103",
+        "pureCost": null,
+        "conditionsReviewed": true,
+        "unsupportedConditions": [],
+        "source": "test-only"
+      },
+      "result": null,
+      "bidClass": "0",
+      "id": "TEST-00099:000:0:000"
+    },
+    "assumedRank": 2,
+    "predictionId": "fixture-prediction",
+    "modelVersion": "synthetic-integration-v1",
+    "availability": {
+      "policy": "observed",
+      "researchOnly": false,
+      "delayDays": null,
+      "note": "확인된 결과 공개시각 또는 최초 수집시각을 사용합니다."
+    },
+    "researchOnly": false,
+    "trainingCount": 30,
+    "trainingConfig": {
+      "availabilityPolicy": "observed",
+      "trainingCount": 30,
+      "selectionCount": 10,
+      "validationCount": 10,
+      "selection": "latest-eligible-before-fixed-holdouts",
+      "historyMonths": 6
+    },
+    "trainingCutoff": "2025-06-09T03:00:00.000Z",
+    "analysisAsOf": "2025-07-19T00:59:00.000Z",
+    "candidates": [
+      {
+        "id": "candidate-1",
+        "rate": "100.00118",
+        "rawRate": 100.0011774595424,
+        "interval": {
+          "lower": "100.000",
+          "upper": "100.200",
+          "label": "[100.000, 100.200)%"
+        },
+        "score": 0.8464219222220276,
+        "amountWon": 91688210,
+        "combination": [
+          2,
+          7,
+          11,
+          12
+        ],
+        "sourceNoticeId": "TEST-00095:000:0:000",
+        "sourcePublishedAt": "2025-07-11T03:00:00.000Z",
+        "explanation": "이전 공개 공고 TEST-00095:000:0:000의 가격비율을 이용한 조건부 조합 2·7·11·12. 이번 공고의 실제 15가격이 아닙니다.",
+        "features": [
+          0.0011774595424043355,
+          -0.8571428571428571,
+          -0.005925009530599823,
+          0.023273648838995038,
+          1,
+          0.728,
+          0.35,
+          0.004413309782716368,
+          1.2246467991473532e-16,
+          -1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "candidate-2",
+        "rate": "99.79755",
+        "rawRate": 99.79755186115057,
+        "interval": {
+          "lower": "99.600",
+          "upper": "99.800",
+          "label": "[99.600, 99.800)%"
+        },
+        "score": 0.2258311209345522,
+        "amountWon": 91503596,
+        "combination": [
+          2,
+          7,
+          11,
+          14
+        ],
+        "sourceNoticeId": "TEST-00096:000:0:000",
+        "sourcePublishedAt": "2025-07-13T03:00:00.000Z",
+        "explanation": "이전 공개 공고 TEST-00096:000:0:000의 가격비율을 이용한 조건부 조합 2·7·11·14. 이번 공고의 실제 15가격이 아닙니다.",
+        "features": [
+          -0.2024481388494337,
+          -0.8571428571428571,
+          -0.005925009530599823,
+          0.023273648838995038,
+          1,
+          0.728,
+          0.008333333333333333,
+          0.004413309782716368,
+          1.2246467991473532e-16,
+          -1,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "selectedCandidateId": "candidate-1",
+    "selectedRate": "100.00118",
+    "amountWon": 91688210,
+    "calculation": {
+      "baseWon": 101021383,
+      "aWon": 10000000,
+      "lowerRatePercent": "89.745",
+      "unitWon": 1,
+      "formula": "a-adjusted",
+      "rounding": "ceil",
+      "minimumRatePercent": "97",
+      "maximumRatePercent": "103",
+      "pureCost": null,
+      "conditionsReviewed": true,
+      "unsupportedConditions": [],
+      "source": "test-only"
+    }
+  },
+  "comparison": {
+    "actualRate": 99.99678285932791,
+    "expectedPriceWon": 101018133,
+    "comparisonRate": 100.00118002128349,
+    "residual": 0.004397161955580486,
+    "selectedRanks": [
+      2,
+      6,
+      10,
+      14
+    ],
+    "assumedHit": true,
+    "minimum": 91684224,
+    "priceFirstCompany": {
+      "companyId": "test-1",
+      "name": "시험업체 1 · 실제 업체 아님",
+      "amountWon": 91734224,
+      "eligible": true
+    },
+    "winnerRate": 100.05193357031703,
+    "amountDifference": -46014,
+    "status": "first",
+    "rank": 1,
+    "ties": 0,
+    "first": true,
+    "competitors": [
+      {
+        "companyId": "test-1",
+        "name": "시험업체 1 · 실제 업체 아님",
+        "amountWon": 91734224,
+        "eligible": true
+      },
+      {
+        "companyId": "test-2",
+        "name": "시험업체 2 · 실제 업체 아님",
+        "amountWon": 91834224,
+        "eligible": true
+      }
+    ]
+  },
+  "syntheticOnly": true
+}

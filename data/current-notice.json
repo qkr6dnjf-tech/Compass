@@ -1,0 +1,43 @@
+{
+  "number": "R26BK01805820",
+  "round": "000",
+  "bidClass": "0",
+  "rebid": "000",
+  "title": "효자공원 정비사업",
+  "region": "전주",
+  "industry": "조경시설물",
+  "publishedAt": "2026-11-03T09:26:10.000Z",
+  "predictionAt": "2026-11-05T07:18:11.531Z",
+  "deadlineAt": "2026-11-10T01:00:00.000Z",
+  "openingAt": "2026-11-10T02:00:00.000Z",
+  "source": {
+    "type": "official",
+    "url": "https://www.g2b.go.kr/pn/pnp/pnpe/UntyAtchFile/downloadFile.do?bidPbancNo=R26BK01805820&bidPbancOrd=000&fileSeq=1&fileType=&prcmBsneSeCd=07",
+    "collectedAt": "2026-11-05T07:18:11.531Z",
+    "rawSha256": "a4b3819f18b20afa58479bdd804de53a70ceedfdd4cb461a7e88ce14e711f847",
+    "regionRestriction": "[전북특별자치도 전주시]",
+    "licenseRestriction": "조경식재·시설물공사업(주력분야: 조경시설물설치공사)",
+    "note": "공식 공고 PDF 1~4쪽·나라장터 공개 구조화 자료 및 현행 예규 제372호 제5장 확인. 현재 미개찰 공고이며 결과 자료는 없음."
+  },
+  "price": {
+    "baseWon": 197843000,
+    "aWon": 8088868,
+    "lowerRatePercent": "89.745",
+    "unitWon": 1,
+    "formula": "a-adjusted",
+    "rounding": "ceil",
+    "minimumRatePercent": "97",
+    "maximumRatePercent": "103",
+    "pureCost": null,
+    "expectedPriceCeiling": true,
+    "conditionsReviewed": true,
+    "unsupportedConditions": [],
+    "source": "official",
+    "aPublishedAt": "2026-11-03T18:29:14+09:00",
+    "reviewBasis": "공고 PDF 제4·7·9항 및 현행 예규 제372호 제5장 제3절 1나9 확인. 소액수의 총액견적. 1원 정수 계산에서 A 보정 하한 부등식을 만족하는 최소값으로 절상하며 이는 별도 공고 반올림 조항을 확인했다는 뜻이 아님.",
+    "pureCostReview": "소액수의(2인 이상 견적)이며 공고에 순공사원가98% 추가조건 없음. 지방계약법 제13조4항의 경쟁입찰 요건과 구분하여 추가하한 미적용.",
+    "roundingBasis": "mathematical-minimum-whole-won",
+    "roundingExplicitlyStatedInNotice": false
+  },
+  "id": "R26BK01805820:000:0:000"
+}

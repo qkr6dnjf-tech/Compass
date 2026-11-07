@@ -1,0 +1,387 @@
+{
+  "schemaVersion": "bid-compass/1.0",
+  "policyVersion": "price-first/1.0",
+  "featureNames": [
+    "rate_minus_100",
+    "assumed_rank",
+    "history_mean",
+    "history_std",
+    "rank_frequency",
+    "pattern_frequency",
+    "bin_frequency",
+    "log_base",
+    "month_sin",
+    "month_cos",
+    "region_jeonju",
+    "region_gunsan",
+    "region_iksan"
+  ],
+  "version": "synthetic-integration-v1",
+  "createdAt": "2026-01-01T00:00:00Z",
+  "trainingCutoff": "2025-06-09T03:00:00.000Z",
+  "selectionCutoff": "2025-06-29T03:00:00.000Z",
+  "dataAsOf": "2026-01-01T00:00:00Z",
+  "model": {
+    "type": "boost",
+    "bias": 0,
+    "stumps": [
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.075,
+        "right": 0.3071917808219178,
+        "gain": 2735.4246575342468
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.0721888176182196,
+        "right": 0.24127385653950548,
+        "gain": 1870.7677192837336
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.06949036273299107,
+        "right": 0.19146332098205637,
+        "gain": 1340.9791502920002
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.06690617299372392,
+        "right": 0.15409168105370338,
+        "gain": 1010.5771840231853
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.06443624984760137,
+        "right": 0.125770313676944,
+        "gain": 796.4109137116325
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.06207933888378389,
+        "right": 0.1039596154220303,
+        "gain": 651.2196276695397
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.05983318760734953,
+        "right": 0.0868728968783251,
+        "gain": 548.3338000909577
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.05769477515216975,
+        "right": 0.0732692623090089,
+        "gain": 472.3957477614454
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.05566051168722858,
+        "right": 0.06228078969641607,
+        "gain": 414.2887788757316
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.05372640760601855,
+        "right": 0.053291287880450774,
+        "gain": 368.4178854255865
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.051888214139596406,
+        "right": 0.04585549952488315,
+        "gain": 331.23367393818205
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.05014153795830199,
+        "right": 0.039645837323548004,
+        "gain": 300.4117211384102
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.04848193278135252,
+        "right": 0.03441707246769187,
+        "gain": 274.38340556433803
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.046904971136058585,
+        "right": 0.029982625615720196,
+        "gain": 252.0599222780632
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.045406299312537715,
+        "right": 0.026198398425283494,
+        "gain": 232.6653824797278
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.04398167833168625,
+        "right": 0.022951564753734405,
+        "gain": 215.63319645738247
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.04262701344745727,
+        "right": 0.020152672303224234,
+        "gain": 200.54013614362174
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.041338374382387875,
+        "right": 0.017729988722836112,
+        "gain": 187.06339121118026
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.04011200817624681,
+        "right": 0.015625393451411933,
+        "gain": 174.95198457860306
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.03894434622877736,
+        "right": 0.013791350420326335,
+        "gain": 164.0073515763746
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.03783200684776605,
+        "right": 0.012188647620574082,
+        "gain": 154.069887020127
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.0367717943767858,
+        "right": 0.01078468830445938,
+        "gain": 145.00945390100316
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.035760695773526315,
+        "right": 0.009552184187249456,
+        "gain": 136.71856972850966
+      },
+      {
+        "feature": 6,
+        "threshold": 0.0125,
+        "left": -0.03479587533723033,
+        "right": 0.008468145205149312,
+        "gain": 129.10743386355063
+      }
+    ]
+  },
+  "testOnly": true,
+  "availability": {
+    "policy": "observed",
+    "researchOnly": false,
+    "delayDays": null,
+    "note": "확인된 결과 공개시각 또는 최초 수집시각을 사용합니다."
+  },
+  "researchOnly": false,
+  "trainingConfig": {
+    "availabilityPolicy": "observed",
+    "trainingCount": 30,
+    "selectionCount": 10,
+    "validationCount": 10,
+    "selection": "latest-eligible-before-fixed-holdouts",
+    "historyMonths": 6
+  },
+  "report": {
+    "objective": "금액 조건 충족 + 양의 잔차 + 유효 업체보다 낮은 금액의 단독 가격 1순위",
+    "requestedTrainingCount": 30,
+    "trainCount": 30,
+    "tuningCount": 10,
+    "testCount": 10,
+    "trainSamples": 2880,
+    "positiveSamples": 84,
+    "comparisons": [
+      {
+        "name": "단순 빈도",
+        "count": 10,
+        "selectedFirstRate": 0.2,
+        "anyCandidateFirstRate": 0.2,
+        "numberHitRate": 1,
+        "belowRate": 0.8,
+        "higherRate": 0,
+        "meanAmountDifference": -61827.6
+      },
+      {
+        "name": "조건부 확률모형",
+        "count": 10,
+        "selectedFirstRate": 0.3,
+        "anyCandidateFirstRate": 0.3,
+        "numberHitRate": 1,
+        "belowRate": 0.7,
+        "higherRate": 0,
+        "meanAmountDifference": -59698
+      },
+      {
+        "name": "ANN",
+        "count": 10,
+        "selectedFirstRate": 0.2,
+        "anyCandidateFirstRate": 0.2,
+        "numberHitRate": 1,
+        "belowRate": 0.8,
+        "higherRate": 0,
+        "meanAmountDifference": -93158.1
+      },
+      {
+        "name": "부스팅",
+        "count": 10,
+        "selectedFirstRate": 0.4,
+        "anyCandidateFirstRate": 0.4,
+        "numberHitRate": 1,
+        "belowRate": 0.6,
+        "higherRate": 0,
+        "meanAmountDifference": -55703.2
+      }
+    ],
+    "selectedAlgorithm": "boost",
+    "improved": true,
+    "trainingNoticeIds": [
+      "TEST-00050:000:0:000",
+      "TEST-00051:000:0:000",
+      "TEST-00052:000:0:000",
+      "TEST-00053:000:0:000",
+      "TEST-00054:000:0:000",
+      "TEST-00055:000:0:000",
+      "TEST-00056:000:0:000",
+      "TEST-00057:000:0:000",
+      "TEST-00058:000:0:000",
+      "TEST-00059:000:0:000",
+      "TEST-00060:000:0:000",
+      "TEST-00061:000:0:000",
+      "TEST-00062:000:0:000",
+      "TEST-00063:000:0:000",
+      "TEST-00064:000:0:000",
+      "TEST-00065:000:0:000",
+      "TEST-00066:000:0:000",
+      "TEST-00067:000:0:000",
+      "TEST-00068:000:0:000",
+      "TEST-00069:000:0:000",
+      "TEST-00070:000:0:000",
+      "TEST-00071:000:0:000",
+      "TEST-00072:000:0:000",
+      "TEST-00073:000:0:000",
+      "TEST-00074:000:0:000",
+      "TEST-00075:000:0:000",
+      "TEST-00076:000:0:000",
+      "TEST-00077:000:0:000",
+      "TEST-00078:000:0:000",
+      "TEST-00079:000:0:000"
+    ],
+    "selectionNoticeIds": [
+      "TEST-00080:000:0:000",
+      "TEST-00081:000:0:000",
+      "TEST-00082:000:0:000",
+      "TEST-00083:000:0:000",
+      "TEST-00084:000:0:000",
+      "TEST-00085:000:0:000",
+      "TEST-00086:000:0:000",
+      "TEST-00087:000:0:000",
+      "TEST-00088:000:0:000",
+      "TEST-00089:000:0:000"
+    ],
+    "testNoticeIds": [
+      "TEST-00090:000:0:000",
+      "TEST-00091:000:0:000",
+      "TEST-00092:000:0:000",
+      "TEST-00093:000:0:000",
+      "TEST-00094:000:0:000",
+      "TEST-00095:000:0:000",
+      "TEST-00096:000:0:000",
+      "TEST-00097:000:0:000",
+      "TEST-00098:000:0:000",
+      "TEST-00099:000:0:000"
+    ],
+    "validationIds": [
+      "TEST-00080:000:0:000",
+      "TEST-00081:000:0:000",
+      "TEST-00082:000:0:000",
+      "TEST-00083:000:0:000",
+      "TEST-00084:000:0:000",
+      "TEST-00085:000:0:000",
+      "TEST-00086:000:0:000",
+      "TEST-00087:000:0:000",
+      "TEST-00088:000:0:000",
+      "TEST-00089:000:0:000",
+      "TEST-00090:000:0:000",
+      "TEST-00091:000:0:000",
+      "TEST-00092:000:0:000",
+      "TEST-00093:000:0:000",
+      "TEST-00094:000:0:000",
+      "TEST-00095:000:0:000",
+      "TEST-00096:000:0:000",
+      "TEST-00097:000:0:000",
+      "TEST-00098:000:0:000",
+      "TEST-00099:000:0:000"
+    ],
+    "validationReusedCount": 0,
+    "period": {
+      "trainFrom": "2025-04-12T00:59:00.000Z",
+      "trainEnd": "2025-06-09T03:00:00.000Z",
+      "selectionFrom": "2025-06-11T00:59:00.000Z",
+      "selectionEnd": "2025-06-29T03:00:00.000Z",
+      "testFrom": "2025-07-01T00:59:00.000Z",
+      "testTo": "2025-07-19T03:00:00.000Z"
+    },
+    "excluded": [
+      {
+        "id": "TEST-00000:000:0:000",
+        "code": "INSUFFICIENT_HISTORY",
+        "reason": "같은 참가제한 지역의 예측시점 이전 6개월 개찰자료가 5건 이상 필요합니다."
+      },
+      {
+        "id": "TEST-00001:000:0:000",
+        "code": "INSUFFICIENT_HISTORY",
+        "reason": "같은 참가제한 지역의 예측시점 이전 6개월 개찰자료가 5건 이상 필요합니다."
+      },
+      {
+        "id": "TEST-00002:000:0:000",
+        "code": "INSUFFICIENT_HISTORY",
+        "reason": "같은 참가제한 지역의 예측시점 이전 6개월 개찰자료가 5건 이상 필요합니다."
+      },
+      {
+        "id": "TEST-00003:000:0:000",
+        "code": "INSUFFICIENT_HISTORY",
+        "reason": "같은 참가제한 지역의 예측시점 이전 6개월 개찰자료가 5건 이상 필요합니다."
+      },
+      {
+        "id": "TEST-00004:000:0:000",
+        "code": "INSUFFICIENT_HISTORY",
+        "reason": "같은 참가제한 지역의 예측시점 이전 6개월 개찰자료가 5건 이상 필요합니다."
+      }
+    ],
+    "limitations": [
+      "모델점수는 보정된 성공확률이 아닙니다.",
+      "후보 A를 사전에 선택하는 고정 규칙으로 평가합니다.",
+      "동일 자료에서 학습 건수를 바꿔도 모델 선택·최종 검증 구간은 고정합니다.",
+      "과거 특징 계산용 선행자료는 학습 공고 수와 별도입니다."
+    ]
+  }
+}
