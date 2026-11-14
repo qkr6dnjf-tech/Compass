@@ -1,3 +1,4 @@
+import {automaticPrediction} from '../../../lib/automatic-prediction.mjs';
 import {mergedRankHistory,rankStatistics,rankCSV} from '../../../lib/rank-history.mjs';
 import {sharedNotices,dailyStatus,collectionInfo,updateDaily} from '../../../lib/daily-update';
 import {availableNotices,availabilityInfo,RESEARCH_POLICY} from '../../../lib/availability.mjs';
@@ -40,6 +41,15 @@ async function handler(req:Request,params:Promise<{action:string}>){
    const ns=await notices(owner),n=ns.find(n=>n.id===input.noticeId);need(n,'NOTICE_NOT_FOUND','등록된 공고를 선택하세요.');need(n.region===input.region,'REGION_MISMATCH','공고의 참가제한 지역과 입력 지역이 다릅니다.');need(testMode||n.source.type!=='test-only','TEST_DATA','시험자료로 실제 예측을 제공하지 않습니다.');need(n.publishedAt<=now,'NOTICE_UNPUBLISHED','아직 공개되지 않은 공고입니다.');
    if(input.mode==='practice')need(n.deadlineAt<=now,'NOT_PAST_NOTICE','과거 연습은 마감된 공고만 지원합니다.');
    if(input.mode==='live')need(now<n.deadlineAt&&!n.result,'DEADLINE_PASSED','마감되었거나 결과가 등록된 공고입니다. 과거 연습 모드를 사용하세요.');
+   if(input.automatic===true){
+    const asOf=input.mode==='practice'?n.predictionAt:now;
+    const rows=mergedRankHistory(await list('official:g2b-daily','official-update'));
+    const automaticModels=await modelVersions(owner),output=automaticPrediction(automaticModels,ns,n,asOf,{rankHistory:rows,allowTest:testMode});
+    const prediction={...output,id:crypto.randomUUID(),userId:owner,createdAt:now,mode:input.mode,notice:{...n,result:null},
+     modelFingerprint:await hash(output.recommendationMethod==='model'?automaticModels.find(m=>m.version===output.modelVersion):{version:output.modelVersion,policy:output.availability}),
+     datasetFingerprint:await hash({asOf,policy:output.availability?.policy,rows:output.recommendationMethod==='historical-mean'?rows.filter(r=>output.automaticDecision.historyIds.includes(r.id)):ns.filter(r=>output.automaticDecision.historyIds.includes(r.id))})};
+    await put(owner,'prediction',prediction);return reply(prediction);
+   }
    const asOf=input.mode==='practice'?n.predictionAt:now,models=(await modelVersions(owner)).filter(m=>(testMode||!m.testOnly)&&m.trainingCutoff<asOf&&m.selectionCutoff<asOf).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)||(b.report.trainCount-a.report.trainCount));need(models.length,'MODEL_NOT_READY','예측시점 이전에 학습·선택된 모델이 없습니다. 자료 관리에서 실제 자료를 등록하고 학습하세요.');
    const model=input.modelVersion?models.find(m=>m.version===input.modelVersion):models[0];need(model,'MODEL_NOT_AVAILABLE','선택한 모델이 없거나 이 공고의 예측시점 이후에 학습된 모델입니다.');const output=predict(model,ns,n,input.assumedPriceRank,asOf,{allowTest:testMode});const prediction={...output,id:crypto.randomUUID(),userId:owner,createdAt:now,mode:input.mode,notice:{...n,result:null},modelFingerprint:await hash(model),datasetFingerprint:await hash({availabilityPolicy:model.availability?.policy||'observed',history:historyBefore(availableNotices(ns.filter(x=>x.id!==n.id),model.availability?.policy||'observed'),n.region,asOf).map((x:any)=>[x.id,x.result])})};await put(owner,'prediction',prediction);return reply(prediction);
   }
