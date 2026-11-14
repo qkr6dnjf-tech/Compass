@@ -1,0 +1,80 @@
+{
+  "RF": {
+    "model": "RF",
+    "trial": 28,
+    "window": null,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.10056779288724035,
+    "fold_MAE_pp": [
+      0.09986613179245762,
+      0.10069153932672265,
+      0.10111736338601135
+    ],
+    "seconds": 28.08388099999138,
+    "convergence_warnings": 0
+  },
+  "SVR": {
+    "model": "SVR",
+    "trial": 30,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.5,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.1005785820570271,
+    "fold_MAE_pp": [
+      0.09981239366792026,
+      0.10067803330422137,
+      0.1012225398629902
+    ],
+    "seconds": 6.508043499998166,
+    "convergence_warnings": 0
+  },
+  "kNN": {
+    "model": "kNN",
+    "trial": 18,
+    "window": 200,
+    "params": {
+      "weights": "uniform",
+      "p": 2,
+      "n_neighbors": 30
+    },
+    "validation_MAE_pp": 0.1015846039914591,
+    "fold_MAE_pp": [
+      0.1008184579882039,
+      0.10162144372683102,
+      0.10230547210766498
+    ],
+    "seconds": 1.654502199999115,
+    "convergence_warnings": 0
+  },
+  "ANN": {
+    "model": "ANN",
+    "trial": 28,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "alpha": 10.0,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.10092601694250676,
+    "fold_MAE_pp": [
+      0.09981899449282515,
+      0.1015601399837576,
+      0.10125367029120973
+    ],
+    "seconds": 125.40746819999913,
+    "convergence_warnings": 0
+  }
+}

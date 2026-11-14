@@ -1,0 +1,610 @@
+[
+  {
+    "model": "RF",
+    "trial": 1,
+    "window": 30,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 15,
+      "max_features": 1.0,
+      "max_depth": null
+    },
+    "validation_MAE_pp": 0.10193129317210063,
+    "fold_MAE_pp": [
+      0.10133568602056982,
+      0.10199862167125118,
+      0.10244415021294367
+    ],
+    "seconds": 4.079349199993885,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 2,
+    "window": 30,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 30,
+      "max_features": 0.7,
+      "max_depth": 3
+    },
+    "validation_MAE_pp": 0.10199184674000923,
+    "fold_MAE_pp": [
+      0.10150312323074541,
+      0.10205817113224931,
+      0.10239905423646399
+    ],
+    "seconds": 3.875031099996704,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 3,
+    "window": 30,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 5,
+      "max_features": 0.35,
+      "max_depth": null
+    },
+    "validation_MAE_pp": 0.10235531922788318,
+    "fold_MAE_pp": [
+      0.10176731286393897,
+      0.10224913922835009,
+      0.10307382614991271
+    ],
+    "seconds": 4.078656899997441,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 4,
+    "window": 30,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 30,
+      "max_features": 0.7,
+      "max_depth": null
+    },
+    "validation_MAE_pp": 0.10199184674000923,
+    "fold_MAE_pp": [
+      0.10150312323074541,
+      0.10205817113224931,
+      0.10239905423646399
+    ],
+    "seconds": 3.828921399996034,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 5,
+    "window": 30,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 30,
+      "max_features": 0.35,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.10193129317210063,
+    "fold_MAE_pp": [
+      0.10133568602056982,
+      0.10199862167125118,
+      0.10244415021294367
+    ],
+    "seconds": 4.423577299996396,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 6,
+    "window": 30,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 15,
+      "max_features": 0.35,
+      "max_depth": 3
+    },
+    "validation_MAE_pp": 0.10193129317210063,
+    "fold_MAE_pp": [
+      0.10133568602056982,
+      0.10199862167125118,
+      0.10244415021294367
+    ],
+    "seconds": 4.356695399997989,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 7,
+    "window": 30,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 1,
+      "max_features": 0.35,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.10332315539643738,
+    "fold_MAE_pp": [
+      0.10261197968637573,
+      0.10285019855326534,
+      0.10461561884671046
+    ],
+    "seconds": 4.169256000001042,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 8,
+    "window": 30,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 30,
+      "max_features": 0.7,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.10199184674000923,
+    "fold_MAE_pp": [
+      0.10150312323074541,
+      0.10205817113224931,
+      0.10239905423646399
+    ],
+    "seconds": 3.634359299998323,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 9,
+    "window": 60,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.10265844290879902,
+    "fold_MAE_pp": [
+      0.10168411815648412,
+      0.10292537847033255,
+      0.1033046904346482
+    ],
+    "seconds": 4.799750300000596,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 10,
+    "window": 60,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 1,
+      "max_features": 0.7,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.10224457608133088,
+    "fold_MAE_pp": [
+      0.10118745433425437,
+      0.10226847930888402,
+      0.10327231955990633
+    ],
+    "seconds": 4.11491850001039,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 11,
+    "window": 60,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 30,
+      "max_features": 1.0,
+      "max_depth": null
+    },
+    "validation_MAE_pp": 0.10130661352454656,
+    "fold_MAE_pp": [
+      0.10040930036536373,
+      0.10150644044372868,
+      0.10195832935289105
+    ],
+    "seconds": 3.8284962000034284,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 12,
+    "window": 60,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 30,
+      "max_features": 1.0,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.10130661352454656,
+    "fold_MAE_pp": [
+      0.10040930036536373,
+      0.10150644044372868,
+      0.10195832935289105
+    ],
+    "seconds": 3.929821900004754,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 13,
+    "window": 60,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "max_depth": null
+    },
+    "validation_MAE_pp": 0.1017119617396497,
+    "fold_MAE_pp": [
+      0.10061965557494827,
+      0.10203012782747099,
+      0.10241322578524116
+    ],
+    "seconds": 3.8859636999986833,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 14,
+    "window": 60,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 1,
+      "max_features": 0.35,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.1023263029933201,
+    "fold_MAE_pp": [
+      0.101396444004955,
+      0.10242477617678311,
+      0.10313513348804348
+    ],
+    "seconds": 4.886322200007271,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 15,
+    "window": 60,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 15,
+      "max_features": 0.35,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.10139984290607651,
+    "fold_MAE_pp": [
+      0.10050341406930483,
+      0.10173916715541577,
+      0.10187922517941449
+    ],
+    "seconds": 3.0941724999938742,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 16,
+    "window": 60,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.1017119617396497,
+    "fold_MAE_pp": [
+      0.10061965557494827,
+      0.10203012782747099,
+      0.10241322578524116
+    ],
+    "seconds": 3.457054300000891,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 17,
+    "window": 200,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.1011216541247113,
+    "fold_MAE_pp": [
+      0.10029730287358622,
+      0.10124246004637238,
+      0.1017975288240742
+    ],
+    "seconds": 9.726853200001642,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 18,
+    "window": 200,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "max_depth": null
+    },
+    "validation_MAE_pp": 0.101128846810113,
+    "fold_MAE_pp": [
+      0.10030111541952215,
+      0.10124875062192862,
+      0.10180921038729922
+    ],
+    "seconds": 9.37846780000109,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 19,
+    "window": 200,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 5,
+      "max_features": 0.35,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.10113484214672258,
+    "fold_MAE_pp": [
+      0.10009987424924001,
+      0.10131849596740018,
+      0.10194409026460143
+    ],
+    "seconds": 2.7312755000093603,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 20,
+    "window": 200,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 30,
+      "max_features": 1.0,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.10094328026788287,
+    "fold_MAE_pp": [
+      0.10008375535065017,
+      0.10115116149387761,
+      0.1015473087062393
+    ],
+    "seconds": 3.762770299996191,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 21,
+    "window": 200,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 30,
+      "max_features": 0.7,
+      "max_depth": null
+    },
+    "validation_MAE_pp": 0.10095362486490178,
+    "fold_MAE_pp": [
+      0.10007483776827548,
+      0.1011745527032564,
+      0.10156088054008669
+    ],
+    "seconds": 3.7938622000001487,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 22,
+    "window": 200,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 5,
+      "max_features": 0.35,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.10106468443557862,
+    "fold_MAE_pp": [
+      0.10004821684875013,
+      0.10131261653965236,
+      0.1017764310006405
+    ],
+    "seconds": 5.192945499999041,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 23,
+    "window": 200,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 15,
+      "max_features": 1.0,
+      "max_depth": 3
+    },
+    "validation_MAE_pp": 0.10101000424166283,
+    "fold_MAE_pp": [
+      0.10012790933332295,
+      0.10122093689604825,
+      0.10163285231221057
+    ],
+    "seconds": 5.310777399994549,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 24,
+    "window": 200,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 3
+    },
+    "validation_MAE_pp": 0.10100943886497894,
+    "fold_MAE_pp": [
+      0.10016666015937262,
+      0.10115567378644859,
+      0.10167248749950523
+    ],
+    "seconds": 5.223598099997616,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 25,
+    "window": null,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 15,
+      "max_features": 0.35,
+      "max_depth": 3
+    },
+    "validation_MAE_pp": 0.10059002895901169,
+    "fold_MAE_pp": [
+      0.09979752923629365,
+      0.10073957852980969,
+      0.10119872473996679
+    ],
+    "seconds": 6.308304600002884,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 26,
+    "window": null,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.10056851792539723,
+    "fold_MAE_pp": [
+      0.09983536994512994,
+      0.10070057395737661,
+      0.1011393624026731
+    ],
+    "seconds": 55.415762099997664,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 27,
+    "window": null,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 15,
+      "max_features": 0.35,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.10063110942835772,
+    "fold_MAE_pp": [
+      0.09987692109960764,
+      0.10075133565615993,
+      0.1012375336782448
+    ],
+    "seconds": 18.32176949999848,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 28,
+    "window": null,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 6
+    },
+    "validation_MAE_pp": 0.10056779288724035,
+    "fold_MAE_pp": [
+      0.09986613179245762,
+      0.10069153932672265,
+      0.10111736338601135
+    ],
+    "seconds": 28.08388099999138,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 29,
+    "window": null,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "max_depth": null
+    },
+    "validation_MAE_pp": 0.10072410478619541,
+    "fold_MAE_pp": [
+      0.0999871707907161,
+      0.10087600935008885,
+      0.10127434043499003
+    ],
+    "seconds": 94.26758410000184,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 30,
+    "window": null,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 30,
+      "max_features": 0.35,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.10061354462413881,
+    "fold_MAE_pp": [
+      0.09987280646543766,
+      0.10074459661022898,
+      0.10119321330272917
+    ],
+    "seconds": 19.198160700012522,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 31,
+    "window": null,
+    "params": {
+      "n_estimators": 150,
+      "min_samples_leaf": 5,
+      "max_features": 0.35,
+      "max_depth": 10
+    },
+    "validation_MAE_pp": 0.10062447690377167,
+    "fold_MAE_pp": [
+      0.0998899006697331,
+      0.10072865308892306,
+      0.10123101536835044
+    ],
+    "seconds": 14.944847099999606,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "RF",
+    "trial": 32,
+    "window": null,
+    "params": {
+      "n_estimators": 300,
+      "min_samples_leaf": 30,
+      "max_features": 0.7,
+      "max_depth": 3
+    },
+    "validation_MAE_pp": 0.10059879496320963,
+    "fold_MAE_pp": [
+      0.09981067971250587,
+      0.10071434552873017,
+      0.10124489275908365
+    ],
+    "seconds": 18.91659869999421,
+    "convergence_warnings": 0
+  }
+]

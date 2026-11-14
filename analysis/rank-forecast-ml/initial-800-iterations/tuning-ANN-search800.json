@@ -1,0 +1,722 @@
+[
+  {
+    "model": "ANN",
+    "trial": 1,
+    "window": 30,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        128,
+        64,
+        32
+      ],
+      "alpha": 0.1,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.13977989946498914,
+    "fold_MAE_pp": [
+      0.14473921857771058,
+      0.13912992700595694,
+      0.13561942918459774
+    ],
+    "seconds": 14.916285499995865,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 2,
+    "window": 30,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "alpha": 0.01,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.17374735113459666,
+    "fold_MAE_pp": [
+      0.1766366208736687,
+      0.16911709500357844,
+      0.17654889898672024
+    ],
+    "seconds": 3.7270559999960824,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "ANN",
+    "trial": 3,
+    "window": 30,
+    "params": {
+      "learning_rate_init": 0.001,
+      "hidden_layer_sizes": [
+        128,
+        64,
+        32
+      ],
+      "alpha": 0.0001,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.31857942153324986,
+    "fold_MAE_pp": [
+      0.2507420106322071,
+      0.26544730389167714,
+      0.4517188764630413
+    ],
+    "seconds": 14.766768699992099,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "ANN",
+    "trial": 4,
+    "window": 30,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "alpha": 0.1,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.1266020964398487,
+    "fold_MAE_pp": [
+      0.1407800023036753,
+      0.11543744188034631,
+      0.12614611238099724
+    ],
+    "seconds": 3.755974099993182,
+    "convergence_warnings": 6
+  },
+  {
+    "model": "ANN",
+    "trial": 5,
+    "window": 30,
+    "params": {
+      "learning_rate_init": 0.001,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "alpha": 0.0001,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.3621546871702682,
+    "fold_MAE_pp": [
+      0.2477174817029007,
+      0.44695062059408935,
+      0.37237342697707354
+    ],
+    "seconds": 7.369425900003989,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 6,
+    "window": 30,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "alpha": 10.0,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.13949646133487129,
+    "fold_MAE_pp": [
+      0.12977316781073592,
+      0.15375517783973217,
+      0.13169507535582567
+    ],
+    "seconds": 1.7018699000036577,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "ANN",
+    "trial": 7,
+    "window": 30,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "alpha": 0.0001,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.15377354348984484,
+    "fold_MAE_pp": [
+      0.1590529202316376,
+      0.14716492556269264,
+      0.15661649045740111
+    ],
+    "seconds": 11.29986700000154,
+    "convergence_warnings": 4
+  },
+  {
+    "model": "ANN",
+    "trial": 8,
+    "window": 30,
+    "params": {
+      "learning_rate_init": 0.001,
+      "hidden_layer_sizes": [
+        64,
+        32,
+        16
+      ],
+      "alpha": 1.0,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.16706171755093474,
+    "fold_MAE_pp": [
+      0.18629848806419325,
+      0.15534078947387497,
+      0.16223055696478886
+    ],
+    "seconds": 9.140719099996204,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 9,
+    "window": 60,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "alpha": 0.01,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.17687514928590525,
+    "fold_MAE_pp": [
+      0.1919555341364086,
+      0.15289462760119032,
+      0.1912680313104706
+    ],
+    "seconds": 12.384863699997368,
+    "convergence_warnings": 1
+  },
+  {
+    "model": "ANN",
+    "trial": 10,
+    "window": 60,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        128,
+        64,
+        32
+      ],
+      "alpha": 0.0001,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.1472511461497858,
+    "fold_MAE_pp": [
+      0.1615111199362267,
+      0.13547892758600846,
+      0.14745982087748463
+    ],
+    "seconds": 13.431174700002884,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 11,
+    "window": 60,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "alpha": 0.1,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.16395953406576705,
+    "fold_MAE_pp": [
+      0.15833444856887394,
+      0.16620899122322627,
+      0.1668199236149449
+    ],
+    "seconds": 3.2296964999986812,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 12,
+    "window": 60,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "alpha": 10.0,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.14231630059127234,
+    "fold_MAE_pp": [
+      0.1461198088618228,
+      0.14378883134907253,
+      0.13670297798152609
+    ],
+    "seconds": 12.779028499993728,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 13,
+    "window": 60,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        32,
+        32,
+        16
+      ],
+      "alpha": 0.1,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.126965366246443,
+    "fold_MAE_pp": [
+      0.12303236568632642,
+      0.13340300043413197,
+      0.12298619070995861
+    ],
+    "seconds": 8.973526500005391,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 14,
+    "window": 60,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "alpha": 0.1,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.28973617847798183,
+    "fold_MAE_pp": [
+      0.27257154444176585,
+      0.31231067331088647,
+      0.2791556233340916
+    ],
+    "seconds": 4.826444900005299,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 15,
+    "window": 60,
+    "params": {
+      "learning_rate_init": 0.001,
+      "hidden_layer_sizes": [
+        32,
+        32,
+        16
+      ],
+      "alpha": 1.0,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.19707260636530102,
+    "fold_MAE_pp": [
+      0.20216803695012037,
+      0.16440071566912115,
+      0.23213257216684807
+    ],
+    "seconds": 8.961803300007887,
+    "convergence_warnings": 1
+  },
+  {
+    "model": "ANN",
+    "trial": 16,
+    "window": 60,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        128,
+        64,
+        32
+      ],
+      "alpha": 1.0,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.15251022911469686,
+    "fold_MAE_pp": [
+      0.156301527438942,
+      0.15088608921256377,
+      0.15071508039083872
+    ],
+    "seconds": 13.200900900003035,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 17,
+    "window": 200,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        32,
+        32,
+        16
+      ],
+      "alpha": 0.0001,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.15804530379186074,
+    "fold_MAE_pp": [
+      0.15834027919463414,
+      0.13721490545032314,
+      0.18335193528930113
+    ],
+    "seconds": 11.351912999991328,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 18,
+    "window": 200,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        64,
+        64,
+        32
+      ],
+      "alpha": 0.01,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.1403022193708823,
+    "fold_MAE_pp": [
+      0.14296646152450554,
+      0.14160324033785224,
+      0.136038957034391
+    ],
+    "seconds": 15.520592400011083,
+    "convergence_warnings": 1
+  },
+  {
+    "model": "ANN",
+    "trial": 19,
+    "window": 200,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "alpha": 10.0,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.1420568261410583,
+    "fold_MAE_pp": [
+      0.14041057692003242,
+      0.13662070470105714,
+      0.15038434193638733
+    ],
+    "seconds": 4.613570400004392,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 20,
+    "window": 200,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        32,
+        32,
+        16
+      ],
+      "alpha": 0.01,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.17263249758598806,
+    "fold_MAE_pp": [
+      0.16814614538775602,
+      0.1751402218883459,
+      0.17403673052992552
+    ],
+    "seconds": 11.773124400002416,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 21,
+    "window": 200,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "alpha": 0.0001,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.19471262699923264,
+    "fold_MAE_pp": [
+      0.19744770124758743,
+      0.18264358390023733,
+      0.20681101354293913
+    ],
+    "seconds": 8.755457700004627,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 22,
+    "window": 200,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        16,
+        16,
+        16
+      ],
+      "alpha": 0.01,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.14437578103605495,
+    "fold_MAE_pp": [
+      0.14763593261837163,
+      0.14164331518091391,
+      0.14447396737625795
+    ],
+    "seconds": 6.791913799999747,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 23,
+    "window": 200,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        32,
+        32,
+        16
+      ],
+      "alpha": 0.1,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.17266282307925715,
+    "fold_MAE_pp": [
+      0.16829110105162878,
+      0.1738200051231831,
+      0.17561231019256315
+    ],
+    "seconds": 10.98306529999536,
+    "convergence_warnings": 1
+  },
+  {
+    "model": "ANN",
+    "trial": 24,
+    "window": 200,
+    "params": {
+      "learning_rate_init": 0.001,
+      "hidden_layer_sizes": [
+        16,
+        16,
+        16
+      ],
+      "alpha": 10.0,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.10779140245300875,
+    "fold_MAE_pp": [
+      0.1042306589718041,
+      0.11013008147900472,
+      0.10847779182405073
+    ],
+    "seconds": 4.492613100010203,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 25,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.001,
+      "hidden_layer_sizes": [
+        16,
+        16
+      ],
+      "alpha": 0.01,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.1323109938150729,
+    "fold_MAE_pp": [
+      0.11709810177485008,
+      0.14112958617636365,
+      0.13668539245035738
+    ],
+    "seconds": 33.66931909999403,
+    "convergence_warnings": 1
+  },
+  {
+    "model": "ANN",
+    "trial": 26,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.001,
+      "hidden_layer_sizes": [
+        32,
+        32,
+        16
+      ],
+      "alpha": 0.0001,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.13066325271203627,
+    "fold_MAE_pp": [
+      0.12059211111738229,
+      0.12529564649794186,
+      0.1473314522234543
+    ],
+    "seconds": 62.14866260000417,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 27,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.001,
+      "hidden_layer_sizes": [
+        32,
+        32
+      ],
+      "alpha": 0.0001,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.15163819904796524,
+    "fold_MAE_pp": [
+      0.12710954404884453,
+      0.1530927498042066,
+      0.17437913803382843
+    ],
+    "seconds": 50.235211700004584,
+    "convergence_warnings": 2
+  },
+  {
+    "model": "ANN",
+    "trial": 28,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "alpha": 10.0,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.1009174031297254,
+    "fold_MAE_pp": [
+      0.09981899449282515,
+      0.10154900521573502,
+      0.10123954104639034
+    ],
+    "seconds": 90.79576849999285,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 29,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        64,
+        64,
+        32
+      ],
+      "alpha": 0.0001,
+      "activation": "relu"
+    },
+    "validation_MAE_pp": 0.1401356949398206,
+    "fold_MAE_pp": [
+      0.12807010469577002,
+      0.14124916170311239,
+      0.1508327785474232
+    ],
+    "seconds": 80.19867750000412,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 30,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        128,
+        64
+      ],
+      "alpha": 0.01,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.15028817605913256,
+    "fold_MAE_pp": [
+      0.13858261933948127,
+      0.16176703964371433,
+      0.14788563228376714
+    ],
+    "seconds": 59.1436490000051,
+    "convergence_warnings": 3
+  },
+  {
+    "model": "ANN",
+    "trial": 31,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.0003,
+      "hidden_layer_sizes": [
+        64,
+        64,
+        32
+      ],
+      "alpha": 0.01,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.13223496352778327,
+    "fold_MAE_pp": [
+      0.12137258047972194,
+      0.13764015162844148,
+      0.13645409863090163
+    ],
+    "seconds": 63.623353800001496,
+    "convergence_warnings": 1
+  },
+  {
+    "model": "ANN",
+    "trial": 32,
+    "window": null,
+    "params": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "alpha": 0.01,
+      "activation": "tanh"
+    },
+    "validation_MAE_pp": 0.14883123739722498,
+    "fold_MAE_pp": [
+      0.14475636246986326,
+      0.15642989096445664,
+      0.14356698503525164
+    ],
+    "seconds": 30.115003600003547,
+    "convergence_warnings": 1
+  }
+]

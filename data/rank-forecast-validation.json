@@ -1,0 +1,22 @@
+{
+  "sourceCount": 2211,
+  "count": 403,
+  "from": "2025-11-10",
+  "to": "2026-11-06",
+  "timingAssumption": "개찰일 기준 순차 검증 · 이전 결과는 개찰 후 7일부터 이용 가능하다고 가정",
+  "randomExpectedMatches": 1.0666666666666667,
+  "methods": {
+    "median": {
+      "priceMAE": 0.10048570292105188,
+      "averageMatches": 1.0124069478908189,
+      "exactMatches": 0,
+      "finalMAE": 1.7609186362842864
+    },
+    "mean": {
+      "priceMAE": 0.10047379152892481,
+      "averageMatches": 1.0124069478908189,
+      "exactMatches": 0,
+      "finalMAE": 1.7599286718069338
+    }
+  }
+}

@@ -1,0 +1,610 @@
+[
+  {
+    "model": "SVR",
+    "trial": 1,
+    "window": 30,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.001,
+      "epsilon": 0.1,
+      "C": 0.1
+    },
+    "validation_MAE_pp": 0.10422295751019205,
+    "fold_MAE_pp": [
+      0.10400780707373428,
+      0.10427118020028504,
+      0.10437883983592104
+    ],
+    "seconds": 2.241286199998285,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 2,
+    "window": 30,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "epsilon": 0.1,
+      "C": 0.3
+    },
+    "validation_MAE_pp": 0.10375165148834298,
+    "fold_MAE_pp": [
+      0.102758979484255,
+      0.10409219477765243,
+      0.10432577866758135
+    ],
+    "seconds": 2.2399889000007533,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 3,
+    "window": 30,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "epsilon": 0.02,
+      "C": 0.03
+    },
+    "validation_MAE_pp": 0.10394665716396852,
+    "fold_MAE_pp": [
+      0.10384155196323668,
+      0.10385317889647169,
+      0.10416665185547859
+    ],
+    "seconds": 2.2432674000083352,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 4,
+    "window": 30,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "epsilon": 0.5,
+      "C": 0.03
+    },
+    "validation_MAE_pp": 0.10294792996275251,
+    "fold_MAE_pp": [
+      0.10278818198202302,
+      0.103101174871029,
+      0.10291933224615893
+    ],
+    "seconds": 2.243026900003315,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 5,
+    "window": 30,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.1,
+      "C": 1.0
+    },
+    "validation_MAE_pp": 0.10281379918715546,
+    "fold_MAE_pp": [
+      0.10174565418732381,
+      0.10266072839293364,
+      0.10407007588938263
+    ],
+    "seconds": 1.7318118000039249,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 6,
+    "window": 30,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.001,
+      "epsilon": 0.5,
+      "C": 0.1
+    },
+    "validation_MAE_pp": 0.10301905243915399,
+    "fold_MAE_pp": [
+      0.1027934671464337,
+      0.10318768139515601,
+      0.10303738426639694
+    ],
+    "seconds": 1.7344610999934957,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 7,
+    "window": 30,
+    "params": {
+      "kernel": "rbf",
+      "gamma": "scale",
+      "epsilon": 0.3,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10295389172703467,
+    "fold_MAE_pp": [
+      0.10199096213056168,
+      0.10272819756568745,
+      0.10419421079555453
+    ],
+    "seconds": 1.7370916999934707,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 8,
+    "window": 30,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "epsilon": 0.1,
+      "C": 10.0
+    },
+    "validation_MAE_pp": 0.10274241633174928,
+    "fold_MAE_pp": [
+      0.10230323840195464,
+      0.10231123826677166,
+      0.10371153378274547
+    ],
+    "seconds": 1.732866099999228,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 9,
+    "window": 60,
+    "params": {
+      "kernel": "rbf",
+      "gamma": "scale",
+      "epsilon": 0.3,
+      "C": 10.0
+    },
+    "validation_MAE_pp": 0.10269267974584748,
+    "fold_MAE_pp": [
+      0.10193231052655469,
+      0.10252885359399058,
+      0.10365439954284149
+    ],
+    "seconds": 1.7594421000030707,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 10,
+    "window": 60,
+    "params": {
+      "kernel": "rbf",
+      "gamma": "scale",
+      "epsilon": 0.02,
+      "C": 10.0
+    },
+    "validation_MAE_pp": 0.1034181787465359,
+    "fold_MAE_pp": [
+      0.10236655984802874,
+      0.10326744881241738,
+      0.10465505231267477
+    ],
+    "seconds": 1.7576798000009148,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 11,
+    "window": 60,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.1,
+      "C": 0.1
+    },
+    "validation_MAE_pp": 0.10233059074569886,
+    "fold_MAE_pp": [
+      0.10168596382163544,
+      0.1022532054627153,
+      0.10307032807342928
+    ],
+    "seconds": 1.7513341999947443,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 12,
+    "window": 60,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.1,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10155479034944814,
+    "fold_MAE_pp": [
+      0.10059319029646842,
+      0.10153936854794168,
+      0.10253534457187723
+    ],
+    "seconds": 1.751674599996477,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 13,
+    "window": 60,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "epsilon": 0.02,
+      "C": 0.1
+    },
+    "validation_MAE_pp": 0.10257675266202805,
+    "fold_MAE_pp": [
+      0.1016501131474161,
+      0.1027303243898954,
+      0.1033146448016075
+    ],
+    "seconds": 1.7249546999955783,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 14,
+    "window": 60,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.001,
+      "epsilon": 0.3,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10580936107178383,
+    "fold_MAE_pp": [
+      0.10386658376704094,
+      0.10600763688660449,
+      0.10750844743093707
+    ],
+    "seconds": 1.7221377000023494,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 15,
+    "window": 60,
+    "params": {
+      "kernel": "rbf",
+      "gamma": "scale",
+      "epsilon": 0.1,
+      "C": 1.0
+    },
+    "validation_MAE_pp": 0.10281261156840277,
+    "fold_MAE_pp": [
+      0.10179212258178061,
+      0.10261563482649998,
+      0.10407519487468196
+    ],
+    "seconds": 1.7232747000089148,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 16,
+    "window": 60,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "epsilon": 0.02,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10252779378474927,
+    "fold_MAE_pp": [
+      0.10160603944572899,
+      0.10223671378206277,
+      0.10380730008237865
+    ],
+    "seconds": 1.7179122000015923,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 17,
+    "window": 200,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.3,
+      "C": 10.0
+    },
+    "validation_MAE_pp": 0.1009438557732087,
+    "fold_MAE_pp": [
+      0.10005432255194352,
+      0.10110811330266091,
+      0.10163150823201865
+    ],
+    "seconds": 1.9486301999932039,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 18,
+    "window": 200,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.02,
+      "C": 0.1
+    },
+    "validation_MAE_pp": 0.10122815578215914,
+    "fold_MAE_pp": [
+      0.10036494085377355,
+      0.10142903054899007,
+      0.10184448552226093
+    ],
+    "seconds": 1.9476807999963057,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 19,
+    "window": 200,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "epsilon": 0.3,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10192940244163357,
+    "fold_MAE_pp": [
+      0.10103723674883487,
+      0.10218412438383646,
+      0.10250850206021637
+    ],
+    "seconds": 1.9417542000082904,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 20,
+    "window": 200,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.1,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10096712407422537,
+    "fold_MAE_pp": [
+      0.10006143551009225,
+      0.10110065655456987,
+      0.10170869450609145
+    ],
+    "seconds": 1.9470525999931851,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 21,
+    "window": 200,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.5,
+      "C": 0.03
+    },
+    "validation_MAE_pp": 0.10105396295293796,
+    "fold_MAE_pp": [
+      0.10023034446630508,
+      0.10130315624103019,
+      0.10157131035923404
+    ],
+    "seconds": 1.8313074000034248,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 22,
+    "window": 200,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.3,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10094281124244306,
+    "fold_MAE_pp": [
+      0.1000765573939074,
+      0.10108772336689437,
+      0.10163096080394356
+    ],
+    "seconds": 1.8235999000025913,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 23,
+    "window": 200,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.001,
+      "epsilon": 0.5,
+      "C": 0.3
+    },
+    "validation_MAE_pp": 0.10138079882467904,
+    "fold_MAE_pp": [
+      0.10063825214293666,
+      0.10149058504378133,
+      0.10198841272316721
+    ],
+    "seconds": 1.820626100001391,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 24,
+    "window": 200,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.001,
+      "epsilon": 0.3,
+      "C": 0.3
+    },
+    "validation_MAE_pp": 0.1014480483162643,
+    "fold_MAE_pp": [
+      0.10082376457540262,
+      0.10158488170034077,
+      0.10190415694820515
+    ],
+    "seconds": 1.8209736999997403,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 25,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": "scale",
+      "epsilon": 0.5,
+      "C": 0.1
+    },
+    "validation_MAE_pp": 0.1007425842922124,
+    "fold_MAE_pp": [
+      0.1000455066440122,
+      0.10090532602188347,
+      0.1012396441721018
+    ],
+    "seconds": 6.249686100003601,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 26,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.001,
+      "epsilon": 0.02,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10626250074165339,
+    "fold_MAE_pp": [
+      0.1068930489229864,
+      0.10561682353734048,
+      0.1064255223086379
+    ],
+    "seconds": 9.279587099998025,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 27,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.001,
+      "epsilon": 0.1,
+      "C": 1.0
+    },
+    "validation_MAE_pp": 0.10288251551921668,
+    "fold_MAE_pp": [
+      0.10256344807110412,
+      0.1026655136388921,
+      0.10346828918895717
+    ],
+    "seconds": 9.093971100002818,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 28,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": "scale",
+      "epsilon": 0.02,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10480216062957223,
+    "fold_MAE_pp": [
+      0.10421026954305126,
+      0.10487111922826654,
+      0.10530929813110582
+    ],
+    "seconds": 9.512867400000687,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 29,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.02,
+      "C": 0.1
+    },
+    "validation_MAE_pp": 0.10060624984467291,
+    "fold_MAE_pp": [
+      0.09985008805987197,
+      0.10072130838041286,
+      0.10122099890398341
+    ],
+    "seconds": 8.264764599996852,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 30,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.5,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.1005785820570271,
+    "fold_MAE_pp": [
+      0.09981239366792026,
+      0.10067803330422137,
+      0.1012225398629902
+    ],
+    "seconds": 6.508043499998166,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 31,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "epsilon": 0.3,
+      "C": 3.0
+    },
+    "validation_MAE_pp": 0.10232876060282846,
+    "fold_MAE_pp": [
+      0.101701578388565,
+      0.10269484269831516,
+      0.10250600951537642
+    ],
+    "seconds": 7.417968900001142,
+    "convergence_warnings": 0
+  },
+  {
+    "model": "SVR",
+    "trial": 32,
+    "window": null,
+    "params": {
+      "kernel": "rbf",
+      "gamma": 0.1,
+      "epsilon": 0.1,
+      "C": 0.3
+    },
+    "validation_MAE_pp": 0.10061103358805401,
+    "fold_MAE_pp": [
+      0.09981094966032406,
+      0.10075708070609207,
+      0.10123161826456402
+    ],
+    "seconds": 7.5304983999958495,
+    "convergence_warnings": 0
+  }
+]

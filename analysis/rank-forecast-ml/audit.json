@@ -1,0 +1,95 @@
+{
+  "checks": {
+    "SVR": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10053185441577395
+    },
+    "mean_all": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10053368853062558
+    },
+    "RF": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10054294936690975
+    },
+    "median_all": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10054790316654337
+    },
+    "mean_200": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10066566430689798
+    },
+    "ANN": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.1007100448991638,
+      "saved_weight_shapes": [
+        [
+          148,
+          128
+        ],
+        [
+          128,
+          64
+        ],
+        [
+          64,
+          15
+        ]
+      ],
+      "iterations": 1361,
+      "training_loss": 0.6107415123800162
+    },
+    "median_200": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10089475946883691
+    },
+    "mean_60": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.1011787800111726
+    },
+    "kNN": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10191078137760501
+    },
+    "mean_30": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10201332204062913
+    },
+    "median_60": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10208638130659818
+    },
+    "median_30": {
+      "source_amounts_reproduced": true,
+      "all_15_ranks": true,
+      "bounds_and_order": true,
+      "MAE_recomputed": 0.10405295727021086
+    }
+  },
+  "prediction_rows": 63720,
+  "notice_count": 354,
+  "data_sha256": "854340341d9ec962044d28311dae9311c0358c8f62bc722c9d9b7998843a9095"
+}
